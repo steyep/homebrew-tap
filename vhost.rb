@@ -3,7 +3,7 @@ class Vhost < Formula
   homepage "https://github.com/steyep/vhost"
   head "https://github.com/steyep/vhost.git", :using => :git, :branch => 'master'
   url 'https://github.com/steyep/vhost/archive/1.1.0.tar.gz'
-  sha256 "0b23e347f6d068c0248fd5fde43822f882502210b9714da92647c553aef5d0ed"
+  sha256 "2ee6e5d6de9e7db0f11d404f63d21e7b74ecbbccca43f08e94e7a3dfb60fa94d"
 
   def install
     bin.install "vhost"
